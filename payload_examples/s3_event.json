@@ -1,0 +1,38 @@
+{
+    "Records": [
+         {
+            "eventVersion": "2.1",
+            "eventSource": "aws:s3",
+            "awsRegion": "us-east-1",
+            "eventTime": "2020-11-16T14:47:36.268Z",
+            "eventName": "ObjectCreated:Put",
+            "userIdentity": {
+                "principalId": ""
+            },
+            "requestParameters": {
+                "sourceIPAddress": ""
+            },
+            "responseElements": {
+                "x-amz-request-id": "",
+                "x-amz-id-2": ""
+            },
+            "s3": {
+                "s3SchemaVersion": "1.0",
+                "configurationId": "tf-s3-queue-20201116135537233900000001",
+                "bucket": {
+                    "name": "zeako-humorous-leopard",
+                    "ownerIdentity": {
+                        "principalId": "A1REUZJPQYDJB6"
+                    },
+                    "arn": "arn:aws:s3:::zeako-humorous-leopard"
+                },
+                "object": {
+                    "key": "frames/10-Best-Indoor-Plants-Gear-Patrol-umbrella.jpg",
+                    "size": 37777,
+                    "eTag": "8a846ff4fafb9074cbea885a1056798d",
+                    "sequencer": "005FB2910AE5A1F699"
+                }
+            }
+        }
+    ]
+}
